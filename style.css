@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    /* padding-left: 3px; */
+}
+body{
+    border-top: 2px solid greenyellow;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items:top;
+    /* margin-top: -150px ; */
+}
+#background{
+    background-image: url('/img/house.jpg');
+    height: 100vh;
+    opacity: 70%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    /* margin-top: 20px; */
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 300px;
+}
+nav ul li{
+    /* margin: 0px 20px; */
+    text-decoration: none;
+    padding: 15px;
+}
+nav ul li:hover{
+    background-color: green;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+/* nav ul li a::after{
+    content: '';
+    width:0px;
+    height: 3px;
+    background: blue;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    border-color: blue;
+    width: 100%;
+} */
+.logo{
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.contact{
+    margin-right:100px;
+    display: flex;
+    align-items: center;
+}
+.name{
+    color: orange;
+    padding: 250px 100px;
+}
+.missionh{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+    color: black;
+}
+/* .......ABOUT US........ */
+.about{
+    padding: 60px 60px;
+    background-color: rgba(165, 161, 161, 0.038);
+    width: 100%;
+    text-align: center;
+    box-sizing: 500%;
+    border-radius: 2px;
+}
+.contentabout{
+    margin-top: -20px;
+    padding: 50px;
+}
+.vision{
+    border: 1px solid green;
+    padding: 50px ;
+}
+.mission{
+    border: 1px solid green;  
+    padding: 50px ;
+}
+.corevalue{
+    border: 1px solid green;    
+    padding: 50px ;
+
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    /* margin-left: 10px; */
+}
+
+
+
+.visionhead{
+    margin-top: 10px;
+}
+.visioncon{
+    margin-top: 10px;
+}
+.missionhead{
+    margin-top: 10px; 
+}
+.missioncon{
+    margin-top: 10px;
+}
+.corehead{
+    margin-top: 10px;  
+}
+.corecon{
+    margin-top: 10px;   
+}
+
+/* ........service.......... */
+
+.ourservice{
+    padding: 150px 50px;
+}
+.general{
+    margin-top: 30px;
+}
+.import{
+    margin-top: 30px;
+}
+.transport{
+    margin-top: 30px; 
+}
+.ourservice{
+    /* display: flex; */
+    align-items: baseline;
+    justify-content: space-between;
+}
